@@ -44,7 +44,7 @@ void insert(LinkedQueue*Qptr,int item){
     }
    
 }
-void delete(LinkedQueue*Qptr){
+void deletion(LinkedQueue*Qptr){
     if(Qptr->start==NULL){
         printf("⚠️Queue is Empty cannot delete⚠️\n\n");
     }
@@ -92,7 +92,7 @@ int main(){
                 break;
             case 2:
                 printf("\nYOU ARE GOING TO DELETE AN ELEMENT FROM QUEUE\n");
-                delete(NewQueue);
+                deletion(NewQueue);
                 break;
             case 3:
                 getitem(NewQueue);
