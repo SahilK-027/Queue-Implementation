@@ -81,7 +81,7 @@ void insert(DarrayQueue* qptr, int data)
     }
 }
 
-void delete(DarrayQueue* qptr)
+void deletion(DarrayQueue* qptr)
 {
     if(qptr->front==-1)
     {
@@ -164,7 +164,7 @@ int main()
                 break;
             case 2:
                 printf("\nYOU ARE GOING TO DELETE AN ELEMENT FROM QUEUE\n");
-                delete(NewQueue);
+                deletion(NewQueue);
                 break;
             case 3:
                 getFirstItem(NewQueue);
